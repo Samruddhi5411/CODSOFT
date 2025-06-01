@@ -17,14 +17,7 @@ public class StudentGradeCalculator {
 	    int marks[] = new int[5];
 	  boolean  failedSubject = false;
 	    for(i=0; i <marks.length;i++) {
-	    	//System.out.print("Enter marks obtained in " + subject[i] + " :");
-	    	
-	    	    // System.out.println("Enter number out of 100");
-		        // marks[i] = sc.nextInt()
-//	    	     marks[i] = sc.nextInt();
-//		    	 if(marks[i] < 0 && marks[i]>100 ) {
-//		         System.out.println( subject[i] + " : " + (marks[i] = sc.nextInt()));
-	    	  do {
+    	  do {
 	    		  System.out.println("enter marks obtained in " + subject[i] + "(0-100)");
 	    		  marks[i] = sc.nextInt();
 	    		  if(marks[i] < 0 || marks[i] > 100) {
@@ -67,13 +60,6 @@ public class StudentGradeCalculator {
 	      }
        }
  }
-//	    for(int i = 1 ; i < marks.length ;i++) {
-//	    	System.out.println( marks[i]);
-//	    }
-//	    System.out.println();
-//	    int marks[]  = new int[5];
-//		for(int i = 0 ; i < 5 ; i++) {
-//			System.out.println(subject[i] +":"+ marks[i]);
-//		}
+
 	
 
